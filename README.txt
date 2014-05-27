@@ -1,2 +1,7 @@
-Simple program that opens a webbrowser or tab into a search based on your query
-Perfect for those !bangs when you just want to search a bunch of things.
+Usage: QuackSearch [Safe Mode] [Search term]
+
+Opens a browser with the given search
+
+Options:
+  -h, --help      show this help message and exit
+  -n, --safe-off  Disables filtering adult content (safe mode)
