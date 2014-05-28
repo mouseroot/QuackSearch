@@ -5,7 +5,7 @@ if __name__ == "__main__":
 	usage = "QuackSearch [Safe Mode] [Search term]"
 	desc = "Opens a browser with the given search"
 	parser = OptionParser(usage=usage,description=desc)
-	parser.add_option("-n","--safe-off",action="store_true",default=False,dest="safe_mode",help="Disables adult content (safe mode)")
+	parser.add_option("-n","--safe-off",action="store_true",default=False,dest="safe_mode",help="Disables filtering adult content (safe mode)")
 	(options,args) = parser.parse_args()
 	if len(args) > 0:
 		if options.safe_mode:
